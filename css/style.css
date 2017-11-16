@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+}
+
+.panel {
+  width: 20vw;
+  height: 60vh;
+  background-color: cornsilk;
+  margin: 8% auto;
+  border-radius: 1em;
+  box-shadow: 10px 10px 60px 5px black;
+}
+
+.switchbox {
+  width: 10%;
+  height: 20%;
+  background-color: rgb(40,40,40);
+  position: relative;
+  top: 40%;
+  left: 45%;
+  border-radius: 5px;
+}
+
+.switch {
+  width: 95%;
+  height: 25%;
+  background-color: cornsilk;
+  position: relative;
+  top: 70%;
+  z-index: 1;
+  box-sizing: border-box;
+  border: 1px solid #666358;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.switch2 {
+  width: 95%;
+  height: 35%;
+  background-color: #666358;
+  position: relative;
+  top: 15%;
+  margin: 0 auto;
+}
